@@ -1,0 +1,11 @@
+
+.square {
+    -fx-border-style: solid;
+}
+
+.square:hover {
+    -fx-background-color : #B9B8B9;
+}
+
+.square{
+-fx-background-color: #AB6B41;}
