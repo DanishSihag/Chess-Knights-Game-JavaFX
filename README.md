@@ -1,6 +1,7 @@
 # Chess Knights Game using JavaFX
 
-This project represents a game made in JavaFX.
+This project represents a game made in JavaFX. The game was originally made in GitHub-Classroom,
+as a project for Software Engineering and Technologies subject. The skeleton of the project was used from https://github.com/jeszy75/javafx-sliding-puzzle-game2.
 
 The game is played with 3 black knight and 3 white knight chess pieces.
 The Knight pieces move according to the rules of chess.
