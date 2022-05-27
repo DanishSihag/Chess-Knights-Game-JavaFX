@@ -16,7 +16,7 @@ import java.io.IOException;
 /**
  * Creates a class that controls when the Scene should be switched after the initial scene.
  */
-public class gameSceneController {
+public class SceneSwitchController {
 
     private Stage stage;
 

@@ -6,7 +6,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import org.tinylog.Logger;
 import state.Square;
-import state.boardGameModel;
+import state.BoardGameModel;
 import javafx.beans.binding.ObjectBinding;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
@@ -14,7 +14,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.image.Image;
-import state.temporaryVariables;
+import state.TemporaryVariables;
 
 import java.net.URISyntaxException;
 
@@ -24,9 +24,9 @@ public class GameController {
     @FXML
     private GridPane board;
 
-    private boardGameModel model = new boardGameModel();
+    private BoardGameModel model = new BoardGameModel();
 
-    private temporaryVariables temporaryVariables = new temporaryVariables();
+    private TemporaryVariables temporaryVariables = new TemporaryVariables();
 
     @FXML
     private TextField numberOfMovesField;

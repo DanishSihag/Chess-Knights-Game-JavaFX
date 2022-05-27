@@ -8,14 +8,14 @@ class temporaryVariablesTest {
 
     @Test
     void getTempNewRow() {
-        temporaryVariables temp = new temporaryVariables();
+        TemporaryVariables temp = new TemporaryVariables();
         assertFalse(temp.tempNewRow == 1);
     }
 
 
     @Test
     void getTempNewCol() {
-        temporaryVariables temp = new temporaryVariables();
+        TemporaryVariables temp = new TemporaryVariables();
         assertTrue(temp.tempNewCol == 0);
     }
 

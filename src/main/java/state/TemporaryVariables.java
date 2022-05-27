@@ -5,7 +5,7 @@ package state;
  * initialized with getter and setter methods.
  * The variables reset value everytime they are called in the Mouse Handle method of GameController class.
  */
-public class temporaryVariables {
+public class TemporaryVariables {
     /**
      * Represents the temporary Row value, initialized as 0 or empty.
      */

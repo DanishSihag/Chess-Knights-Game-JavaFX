@@ -8,7 +8,7 @@ import org.tinylog.Logger;
 /**
  * Class representing the model/state of the board game.
  */
-public class boardGameModel {
+public class BoardGameModel {
 
     /**
      * The size of the board.
@@ -25,7 +25,7 @@ public class boardGameModel {
     /**
      * Creates {@code boardGameModel} object that corresponds to the initial state of the game.
      */
-    public boardGameModel() {
+    public BoardGameModel() {
         for (var i = 0; i < BOARD_SIZE; i++) {
             for (var j = 0; j < BOARD_SIZE - 1; j++) {
 
@@ -267,7 +267,7 @@ public class boardGameModel {
     }
 
     public static void main(String[] args) {
-        var model = new boardGameModel();
+        var model = new BoardGameModel();
         System.out.println(model);
     }
 }

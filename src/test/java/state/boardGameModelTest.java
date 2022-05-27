@@ -10,7 +10,7 @@ class boardGameModelTest {
     @Test
     void isValidPositionShowing() {
 
-        boardGameModel board = new boardGameModel();
+        BoardGameModel board = new BoardGameModel();
         assertFalse(board.isValidPositionShowing());
     }
 

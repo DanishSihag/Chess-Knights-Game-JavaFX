@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('file:C:/Users/sihag/Downloads/stream-playground-master/homework-project-DanishSihag/src/main/resources/Images/ChessPicture.JPEG');" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.gameSceneController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('file:C:/Users/sihag/Downloads/stream-playground-master/homework-project-DanishSihag/src/main/resources/Images/ChessPicture.JPEG');" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SceneSwitchController">
    <children>
       <Text fill="#ef0000" fontSmoothingType="LCD" layoutX="23.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Knights Chess Game!" textAlignment="CENTER" wrappingWidth="569.3365783691406">
          <font>
